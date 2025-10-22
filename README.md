@@ -20,7 +20,7 @@ If you use this code or the concepts presented in our work, please cite our pape
   year    = {2025},
   publisher    = {Zenodo},
   version      = {v1.0.0},
-  doi          = {[Insert Zenodo DOI here]},
+  doi          = {10.5281/zenodo.17420367},
   url          = {https://doi.org/10.5281/zenodo.17420367}
 }```
 ```

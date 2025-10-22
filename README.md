@@ -18,8 +18,11 @@ If you use this code or the concepts presented in our work, please cite our pape
   author  = {Mello, Ricardo Coutinho and Chen, Bo and Fernandes, Felipe Schuler and Claro, Daniela Barreiro and Ladeira, Rodrigo and Fernandes, Antônio Sérgio Araújo},
   journal = {Journal of Operations Research},
   year    = {2025},
-  note    = {Forthcoming}
-}
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {[Insert Zenodo DOI here]},
+  url          = {https://doi.org/10.5281/zenodo.17420367}
+}```
 ```
 
 ## Methodological Overview

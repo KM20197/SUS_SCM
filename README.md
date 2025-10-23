@@ -61,7 +61,7 @@ The performance of the AI framework is benchmarked against three other policies:
 The script is designed to be run directly from the command line.
 
 ```bash
-python "FinalCode.txt"
+python "FinalCode.py"
 ```
 
 The script will execute the complete simulation and analysis pipeline. This is a computationally intensive process and may take several hours to complete, depending on the hardware.

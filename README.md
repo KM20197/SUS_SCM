@@ -16,7 +16,6 @@ If you use this code or the concepts presented in our work, please cite our pape
 @article{Mello2025HybridAI,
   title   = {A Hybrid Artificial Intelligence Architecture for Healthcare Supply Chain Optimization: Benchmarking Machine Learning, Reinforcement Learning, and Genetic Algorithms Against Operations Research Baselines},
   author  = {Mello, Ricardo Coutinho and Chen, Bo and Fernandes, Felipe Schuler and Claro, Daniela Barreiro and Ladeira, Rodrigo and Fernandes, Antônio Sérgio Araújo},
-  journal = {Journal of Operations Research},
   year    = {2025},
   note    = {Forthcoming}
 }

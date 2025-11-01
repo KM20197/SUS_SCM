@@ -27,13 +27,11 @@ A hybrid AI framework combining **Machine Learning (LSTM-RF ensemble)**, **Reinf
 
 ## Contents
 
-| Component | Description | Status |
-|-----------|-------------|--------|
-| **FinalCode.py** | Main simulation framework (5 policies, 100 MC replications) | ✅ v1.1.0 (corrected) |
-| **data/database.csv** | Real SUS data (9,170 transactions, 365 days, 3 facilities) | ✅ Included |
-| **tests/validation_tests.py** | Policy specification validation suite (4 tests) | ✅ Complete |
-| **README.md** | Complete documentation | ✅ v1.1.0 |
-| **LICENSE** | CC BY-NC-SA 4.0 | ✅ Included |
+- **FinalCode.py** — Main simulation framework (5 policies, 100 MC replications)
+- **data/database.csv** — Real SUS data (9,170 transactions, 365 days, 3 facilities)
+- **tests/validation_tests.py** — Policy specification validation suite (4 tests)
+- **requirements.txt** — Python dependencies
+- **LICENSE** — CC BY-NC-SA 4.0
 
 ## Framework Architecture
 
@@ -58,15 +56,15 @@ A hybrid AI framework combining **Machine Learning (LSTM-RF ensemble)**, **Reinf
 
 All policies receive **identical ML forecasts** and operate under **identical constraints**:
 
-| Policy | Mechanism | Specification |
-|--------|-----------|---------------|
-| **STATIC** | Fixed reorder point | ROP = μ×LT + z×σ×√LT (z=1.96) |
-| **DYNAMIC** | Exponential smoothing | Adaptive forecast with α=0.2, β=0.1 |
-| **BASE_STOCK_PERFECT** | Omniscient policy | Knows actual demand (theoretical optimum) |
-| **BASE_STOCK_UNCERTAIN** | ML-guided analytics | S = μ_forecast + 1.645×σ_forecast×√(LT+1), LT~N(7.2,1.8) |
-| **AI (RL-based)** | Adaptive learning | Double Q-learning with integrated routing |
+| Policy | Mechanism |
+|--------|-----------|
+| **STATIC** | Fixed reorder point: ROP = μ×LT + z×σ×√LT (z=1.96) |
+| **DYNAMIC** | Exponential smoothing with α=0.2, β=0.1 |
+| **BASE_STOCK_PERFECT** | Omniscient policy (knows actual demand) |
+| **BASE_STOCK_UNCERTAIN** | ML-guided: S = μ_forecast + 1.645×σ_forecast×√(LT+1), LT~N(7.2,1.8) |
+| **AI (RL-based)** | Double Q-learning with integrated routing |
 
-**Key difference (v1.1.0):** BASE_STOCK_UNCERTAIN corrected to use z_α=1.645 (95% service level) and stochastic lead time (empirical SUS: mean 7.2 days, SD 1.8 days).
+**v1.1.0:** BASE_STOCK_UNCERTAIN corrected to use z_α=1.645 (95% service level) and stochastic lead time (empirical SUS: mean 7.2 days, SD 1.8 days).
 
 ## Installation
 
@@ -105,9 +103,7 @@ Automatically:
 ```
 DESCRIPTIVE STATISTICS (90-day normalized horizon):
 static                : Cost=3,604,269,457.74±2,656,652,678.32 FR=0.9604
-dynamic               : Cost=50,199,985.26±36,709,204.24 FR=0.9613
 ai                    : Cost=1,251,921,848.98±1,367,618,166.74 FR=0.9925
-base_stock_perfect    : Cost=1,156,791,065.38±909,960,418.79 FR=0.9972
 base_stock_uncertain  : Cost=2,064,134,674.15±1,769,277,269.20 FR=0.9920
 
 STATISTICAL TESTS (Mann-Whitney U + Glass's Delta):
@@ -228,7 +224,7 @@ python FinalCode.py  # Second run → results identical
 ## Authors
 
 - **Ricardo Coutinho Mello** — Lead author; methodology, AI architecture, manuscript
-- **Bo Chen** — Advisor; manuscript coordination
+- **Bo Chen** — Advisor; manuscript coordination, RL expertise
 - **Felipe Schuler Fernandes** — Co-author; validation tests, code implementation
 - **Daniela Barreiro Claro** — Co-author; RL design, AI/ML integration
 - **Antônio Sérgio Araújo Fernandes** — Advisor; public health policy, SUS context
@@ -240,11 +236,6 @@ python FinalCode.py  # Second run → results identical
 - Check [GitHub Issues](https://github.com/your-org/hybrid-ai-supply-chain/issues)
 - Run validation tests: `python tests/validation_tests.py`
 - GPU issues: `export CUDA_VISIBLE_DEVICES=-1` (force CPU)
-
-**Documentation:**
-- Validation details: See `tests/` directory
-- Data structure: See example CSV columns in Usage section
-- Methodology: See full manuscript at Zenodo DOI
 
 ## License
 

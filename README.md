@@ -110,20 +110,6 @@ STATISTICAL TESTS (Mann-Whitney U + Glass's Delta):
 ai vs base_stock_uncertain: U=50834 p=0.006002 ✓ SIG Glass's Δ=0.5128
 ```
 
-### Run Validation Tests Only
-
-Verify policy specifications without full 40-minute simulation:
-
-```bash
-python tests/validation_tests.py
-```
-
-Tests validate:
-1. **TEST 1:** BASE_STOCK_UNCERTAIN (z_α=1.645, LT~N(7.2,1.8), fair comparison)
-2. **TEST 2:** Stress scenarios (CV 0.42→0.63, disruption 20%, surge 180-220%)
-3. **TEST 3:** Fair comparison (identical forecasts & constraints for AI vs. BASE_STOCK)
-4. **TEST 4:** Empirical grounding (HIGH_VOL vs H1N1 0.61/COVID 0.68, DISRUPTION vs COVID-19 Q2 18-23%, SURGE vs flu 195-240%)
-
 ### Use Your Own Data
 
 ```bash

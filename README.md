@@ -209,12 +209,12 @@ python FinalCode.py  # Second run → results identical
 
 ## Authors
 
-- **Ricardo Coutinho Mello** — Lead author; methodology, AI architecture, manuscript
-- **Bo Chen** — Advisor; manuscript coordination, RL expertise
+- **Ricardo Coutinho Mello** — Lead author; methodology, AI architecture
+- **Bo Chen** — Advisor; manuscript coordination
 - **Felipe Schuler Fernandes** — Co-author; validation tests, code implementation
 - **Daniela Barreiro Claro** — Co-author; RL design, AI/ML integration
 - **Antônio Sérgio Araújo Fernandes** — Advisor; public health policy, SUS context
-- **Rodrigo Ladeira** — Advisor; logistics domain, VRP optimization
+- **Rodrigo Ladeira** — Advisor; logistics domain
 
 ## Support
 

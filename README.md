@@ -2,7 +2,7 @@
 
 This repository contains the official source code for: **"A Hybrid Artificial Intelligence Architecture for Healthcare Supply Chain Optimization: Benchmarking Machine Learning, Reinforcement Learning, and Genetic Algorithms Against Operations Research Baselines."**
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-darkgreen.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![DOI: 10.5281/zenodo.17420367](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17420367-blue.svg)](https://doi.org/10.5281/zenodo.17420367)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 

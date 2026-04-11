@@ -1,0 +1,5 @@
+scenario,horizon_days,forecaster,reward_mode,ga_mode,comparison,p_value,p_value_holm,n_pairs
+SUPPLY_DISRUPTION,180,lstm_rf,inventory_plus_routing,on,AI vs BASESTOCK,1.862645149230957e-09,7.450580596923828e-09,30
+SUPPLY_DISRUPTION,180,lstm_rf,inventory_plus_routing,on,AI vs DYNAMIC,3.725290298461914e-09,7.450580596923828e-09,30
+SUPPLY_DISRUPTION,180,lstm_rf,inventory_plus_routing,on,AI vs DYN_FC,1.862645149230957e-09,7.450580596923828e-09,30
+SUPPLY_DISRUPTION,180,lstm_rf,inventory_plus_routing,on,AI vs STATIC,1.862645149230957e-09,7.450580596923828e-09,30

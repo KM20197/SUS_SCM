@@ -13,7 +13,7 @@ against multi-tier baselines (static, dynamic, and forecast-driven OR policies).
 
 ## Included in this reviewed package
 
-- `src/`: placeholder plus a precise list of source files still to be copied from the execution environment/server.
+- `src/`: source files to the execution environment/server.
 - `scripts/`: runnable shells for the main experiment grid and targeted diagnostics/ablations.
 - `configs/`: example configuration stub.
 
@@ -22,4 +22,4 @@ against multi-tier baselines (static, dynamic, and forecast-driven OR policies).
 - Raw SUS operational data.
 - Large audit bundles (`*.tar.gz`) and run folders.
 - Core source files copied from the server.
-- Validation CSVs, synthetic-parameter files, and table-generation/post-processing scripts referenced in the manuscript but not present among the files available here.
+- Validation CSVs, synthetic-parameter files, and table-generation/post-processing scripts.

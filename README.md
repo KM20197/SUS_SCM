@@ -25,7 +25,6 @@ against multi-tier baselines (static, dynamic, and forecast-driven OR policies).
 - `src/`: placeholder plus a precise list of source files still to be copied from the execution environment/server.
 - `scripts/`: runnable shells for the main experiment grid and targeted diagnostics/ablations.
 - `configs/`: example configuration stub.
-- `paper/`: the current manuscript version (`Manuscript_2026-04-01.docx`) and the archived earlier manuscript.
 - `docs/`: reproducibility notes, data statement, audit-artifact guide, release checklist, and package-status memo.
 
 ## Not included in the current workspace
@@ -34,8 +33,6 @@ against multi-tier baselines (static, dynamic, and forecast-driven OR policies).
 - Large audit bundles (`*.tar.gz`) and run folders.
 - Core source files copied from the server.
 - Validation CSVs, synthetic-parameter files, and table-generation/post-processing scripts referenced in the manuscript but not present among the files available here.
-
-These materials should be added before pushing the final public repository, except for restricted data that must remain off GitHub.
 
 ## Quick start (after source files are added)
 

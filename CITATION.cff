@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "SUS Supply Chain Hybrid AI Benchmark (ML + RL + GA)"
+type: software
+authors:
+  - family-names: "Mello"
+    given-names: "Ricardo Coutinho"
+  - family-names: "Chen"
+    given-names: "Bo"
+  - family-names: "Fernandes"
+    given-names: "Felipe Schuler"
+  - family-names: "Claro"
+    given-names: "Daniela Barreiro"
+  - family-names: "Fernandes"
+    given-names: "Antônio Sérgio Araújo"
+  - family-names: "Ladeira"
+    given-names: "Rodrigo"
+repository-code: "TO_FILL_BEFORE_PUBLICATION"
+license: "CC-BY-NC-SA-4.0"
+preferred-citation:
+  type: article
+  title: "Economic Evaluation of Hybrid AI and Classical Inventory Policies in a Healthcare Supply Chain"
+  authors:
+    - family-names: "Mello"
+      given-names: "Ricardo Coutinho"
+    - family-names: "Chen"
+      given-names: "Bo"
+    - family-names: "Fernandes"
+      given-names: "Felipe Schuler"
+    - family-names: "Claro"
+      given-names: "Daniela Barreiro"
+    - family-names: "Fernandes"
+      given-names: "Antônio Sérgio Araújo"
+    - family-names: "Ladeira"
+      given-names: "Rodrigo"
+  year: 2026
+  journal: "TO_FILL_BEFORE_PUBLICATION"

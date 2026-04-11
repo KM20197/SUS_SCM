@@ -1,0 +1,17 @@
+CORE FILES STILL TO COPY FROM THE SERVER BEFORE THE REPOSITORY IS COMPLETE
+
+Required for the shell scripts already present in this package:
+1. Code4_colab_fixed_v12_actionscale_minpatch.py
+2. code4_diag_hooks.py
+3. code4_tf_predict_safe_patch.py  (include this if the main runner imports or calls the TensorFlow safe-predict/runtime patch)
+
+Optional but recommended for reproducibility/audit support:
+4. Code4_colab_fixed_v12_progress_checkpoint_sigint.py
+5. Code_compare_fingerprints.py
+
+Verification step on the server:
+- open Code4_colab_fixed_v12_actionscale_minpatch.py
+- list its local imports
+- copy any additional project-local modules imported there into src/
+
+The current reviewed package does not contain these source files because they were not available in the uploaded workspace.

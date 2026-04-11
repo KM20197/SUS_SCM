@@ -1,0 +1,10 @@
+# Example config stub (optional)
+experiment:
+  scenarios: [STABLE, HIGH_VOLATILITY, SUPPLY_DISRUPTION, SEASONAL_SURGE]
+  horizons: [90, 180]
+  forecaster: lstm_rf
+  reward_mode: inventory_plus_routing
+  ga_mode: on
+  n_replications: 100
+paths:
+  out_dir: runs/example

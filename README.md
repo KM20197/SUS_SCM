@@ -1,6 +1,6 @@
 # SUS Supply Chain Hybrid AI Benchmark (ML + RL + GA)
 
-This repository provides code and documentation to reproduce the simulation-based evaluation reported in the manuscript.
+This repository provides code and documentation to reproduce the simulation-based evaluation reported in the published manuscript.
 
 ## Status of this package
 

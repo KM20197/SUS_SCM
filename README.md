@@ -2,15 +2,6 @@
 
 This repository provides code and documentation to reproduce the simulation-based evaluation reported in the published manuscript.
 
-## Status of this package
-
-This reviewed package replaces the manuscript included in the original scaffold with the current version dated 2026-04-01 and keeps the previous manuscript in `paper/archive/` for traceability.
-
-The package remains **not fully runnable yet** because the core source files and some manuscript-declared public materials are not present in the current workspace. See:
-- `src/REQUIRED_FROM_SERVER.txt`
-- `docs/PACKAGE_STATUS_2026-04-07.md`
-- `docs/RELEASE_CHECKLIST.md`
-
 ## Scope
 
 The study benchmarks a hybrid policy that combines:

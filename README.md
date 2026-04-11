@@ -16,7 +16,6 @@ against multi-tier baselines (static, dynamic, and forecast-driven OR policies).
 - `src/`: placeholder plus a precise list of source files still to be copied from the execution environment/server.
 - `scripts/`: runnable shells for the main experiment grid and targeted diagnostics/ablations.
 - `configs/`: example configuration stub.
-- `docs/`: reproducibility notes, data statement, audit-artifact guide, release checklist, and package-status memo.
 
 ## Not included in the current workspace
 
@@ -24,40 +23,3 @@ against multi-tier baselines (static, dynamic, and forecast-driven OR policies).
 - Large audit bundles (`*.tar.gz`) and run folders.
 - Core source files copied from the server.
 - Validation CSVs, synthetic-parameter files, and table-generation/post-processing scripts referenced in the manuscript but not present among the files available here.
-
-## Quick start (after source files are added)
-
-1. Create a virtual environment and install dependencies:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-2. Run a minimal smoke test:
-
-```bash
-bash scripts/smoke_stable_90.sh
-```
-
-## Reproducing the main results
-
-Primary grid:
-
-```bash
-bash scripts/run_phaseA2_grid.sh
-```
-
-Targeted diagnostics and ablations (Supply Disruption):
-
-```bash
-bash scripts/run_diag_supply_disruption_quick.sh
-bash scripts/run_ablations_sd_quick.sh
-```
-
-See `docs/REPRODUCIBILITY.md` for operational details and expected outputs.
-
-## License
-
-See `LICENSE`. If you plan to reuse code in a different licensing model, separate code and manuscript licensing explicitly.

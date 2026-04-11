@@ -119,7 +119,8 @@ python -u Code4_colab_fixed_v12_actionscale_minpatch.py \
   --reward_modes inventory_only \
   --ga_modes off \
   --out_dir runs/test_quickShell-based runs are also provided in scripts/.
-Typical outputs from the main runner
+
+## Typical outputs from the main runner
 The main runner can generate files such as:
 •	raw_replications.csv 
 •	summary_means_ci.csv 
@@ -128,20 +129,26 @@ The main runner can generate files such as:
 •	forecast_ranking_stability.csv 
 •	run_manifest.json 
 •	run_fingerprint.json 
+
 Some shell pipelines also generate pooled tail-risk tables and Word-ready CSV exports during post-processing.
-Relationship to the manuscript
+
+## Relationship to the manuscript
 The public package is intended to support the manuscript’s paired simulation workflow and its statistical validation pipeline.
 In manuscript terms, the repository should be read as the public code package for the current scenario-based benchmark and related validation utilities. The legacy script is preserved for traceability, not as the preferred entry point for new runs.
-Data availability
+
+## Data availability
 Raw SUS operational transaction data are not distributed in this repository.
 The manuscript uses operational demand records from SUS institutions under data-use restrictions. Publicly shared materials in this repository are intended to support code inspection, workflow replication, and validation of exported numerical summaries, but they do not include the restricted institutional raw logs.
-Naming policy
-To avoid ambiguity:
+
+## Naming policy
+# To avoid ambiguity:
 •	treat Code4_colab_fixed_v12_actionscale_minpatch.py as the canonical runner 
 •	treat legacy/FinalCode_unit_level_montecarlo_legacy.py as a legacy artifact 
 •	avoid labels such as Final, Last, or similar for future canonical files 
 •	use descriptive filenames tied to function and workflow stage 
-Citation
+
+##Citation
 Please use the repository citation metadata in CITATION.cff and cite the associated manuscript when referring to this codebase in academic work.
-License
+
+## License
 This repository is distributed under the license included in LICENSE.

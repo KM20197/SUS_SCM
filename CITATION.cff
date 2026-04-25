@@ -19,7 +19,7 @@ repository-code: "TO_FILL_BEFORE_PUBLICATION"
 license: "CC-BY-NC-SA-4.0"
 preferred-citation:
   type: article
-  title: "Economic Evaluation of Hybrid AI and Classical Inventory Policies in a Healthcare Supply Chain"
+  title: "EStress-Tested Benchmarking of Hybrid AI and Classical Inventory Policies for Healthcare Supply Chains"
   authors:
     - family-names: "Mello"
       given-names: "Ricardo Coutinho"

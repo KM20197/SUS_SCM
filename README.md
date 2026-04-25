@@ -8,7 +8,7 @@ The benchmark compares a hybrid AI architecture against tuned classical baseline
 
 This repository is the public code package associated with the manuscript:
 
-**Economic Evaluation of Hybrid AI and Classical Inventory Policies in a Healthcare Supply Chain**
+**Stress-Tested Benchmarking of Hybrid AI and Classical Inventory Policies for Healthcare Supply Chains**
 
 The public package contains runnable code, shell runners, environment specifications, example outputs, and reproducibility utilities. It does not contain restricted SUS raw operational data or every large audit bundle generated during execution.
 

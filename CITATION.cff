@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript."
-title: "SUS Supply Chain Hybrid AI Benchmark (ML + RL + GA)"
+title: "Code package for Stress-Tested Benchmarking of Hybrid AI and Classical Inventory Policies for Healthcare Supply Chains"
 type: software
+
 authors:
   - family-names: "Mello"
     given-names: "Ricardo Coutinho"
@@ -15,8 +16,10 @@ authors:
     given-names: "Antônio Sérgio Araújo"
   - family-names: "Ladeira"
     given-names: "Rodrigo"
-repository-code: "TO_FILL_BEFORE_PUBLICATION"
+
+repository-code: "https://github.com/KM20197/SUS_SCM"
 license: "CC-BY-NC-SA-4.0"
+
 preferred-citation:
   type: article
   title: "Stress-Tested Benchmarking of Hybrid AI and Classical Inventory Policies for Healthcare Supply Chains"
@@ -34,4 +37,4 @@ preferred-citation:
     - family-names: "Ladeira"
       given-names: "Rodrigo"
   year: 2026
-  journal: "TO BE INFORMED"
+  journal: "Under review"
